@@ -13,16 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CommandManager : NSObject
 
-+ (instancetype)shareInstance;
 
-@property (nonatomic,strong) NSMutableArray <Command*>* arrayCommands;
-
-
-
-+ (void)excuteCommand:(Command*)cmd cpmpletion:(CommandCompletionCallBack)completion;
-
-
-+ (void)cancelCommand:(Command*)cmd;
 
 @end
 
